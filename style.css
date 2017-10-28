@@ -3,6 +3,9 @@ a{
 	color: #fff;
 	text-decoration: none;
 }
+*{
+	margin: 0;
+}
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -31,4 +34,31 @@ a{
 }
 .header_button{
 	cursor: pointer;
+}
+.sideBar{
+	#d7dbdd
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 630px;
+	width: 150px;
+	border-right: 4px solid black;
+	background: #fcfdfd;
+	padding: 10px;
+}
+.sideBar a{
+	color:#689CD2;
+}
+.sideBar_item{
+	cursor: pointer;
+	padding: 8px 10px;
+	font-size: 18px;
+
+}
+.sideBar_item:hover{
+	background-color: #FF9900;
+	border-radius: 4px;
+}
+.sec1{
+	margin-bottom: 200px;
 }
