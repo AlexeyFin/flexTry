@@ -125,3 +125,38 @@ button:hover{
 
 
 }
+
+.gallery{
+	padding: .5vw;
+	font-size: 0;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-flow: row wrap;
+	display: flex;
+
+
+}
+.gallery div{
+	flex: auto;
+	width: 237px;
+	margin:.5vw;
+}
+
+.gallery div img{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 600px){
+	.gallery div{margin: 0;}
+	.gallery {padding: 0;}		
+}
+	
+.gallery:hover img{
+	opacity: 0.3;
+	transition: 0.3 opacity;
+}
+.gallery:hover img:hover{
+	opacity: 1;
+	transition: 0.3 opacity;
+}
